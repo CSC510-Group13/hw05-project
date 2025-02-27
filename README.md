@@ -33,5 +33,3 @@ To run the project, follow these steps:
   - `make step2`: Remove stop words from the cleaned text.
   - `make step3`: Identify the top ten most frequent words.
   - `make step4`: Generate a word frequency table.
-
-For further details on the usage of Make, Gawk, and shell scripting, refer to the documentation in `docs/hw05notes.md`.
