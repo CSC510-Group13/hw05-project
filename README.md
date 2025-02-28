@@ -1,3 +1,7 @@
+<!-- [![GitHub Action Status](https://github.com/CSC510-Group13/hw01/workflows/unit-tests/badge.svg)](https://github.com/CSC510-Group13/hw01/actions) -->
+<!-- [![test with pytest](https://github.com/CSC510-Group13/HW01/actions/workflows/test.yml/badge.svg)](https://github.com/CSC510-Group13/HW01/actions/workflows/test.yml) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Homework 5 Project
 
 ## Project Structure
