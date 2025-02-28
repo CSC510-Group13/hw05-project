@@ -1,0 +1,33 @@
+name: Homework 5 Project CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Gawk
+      run: sudo apt-get install -y gawk
+
+    - name: Set up Make
+      run: sudo apt-get install -y make
+
+    - name: Run Makefile
+      run: make
+
+    - name: Verify output
+      run: |
+        if [ ! -f data/processed_output.txt ]; then
+          echo "Processed output file not found!"
+          exit 1
+        fi
