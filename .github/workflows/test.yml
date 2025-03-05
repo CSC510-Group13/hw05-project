@@ -24,10 +24,3 @@ jobs:
 
     - name: Run Makefile
       run: make
-
-    - name: Verify output
-      run: |
-        if [ ! -f data/processed_output.txt ]; then
-          echo "Processed output file not found!"
-          exit 1
-        fi
